@@ -7,7 +7,422 @@
 [![Status](https://img.shields.io/badge/Status-Live-brightgreen)]()
 [![MS-102](https://img.shields.io/badge/Exam-MS--102-orange)](https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-102)
 
----
+<p align="center">
+
+<img src="https://img.shields.io/badge/MS--102-0078D4?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/SC--400-512BD4?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/ISO_27001-4CAF50?style=for-the-badge"/>
+
+</p>
+
+<p align="center">
+
+📖 Reading Time: 12 minutes
+
+•
+🕒 Lab Time: 45–60 minutes
+
+•
+🎯 Difficulty: Intermediate
+
+</p>
+
+<h2 align="center">👥 Who Should Read This?</h2>
+
+<ul>
+
+<li>Microsoft 365 Administrators</li>
+
+<li>Security Engineers</li>
+
+<li>Compliance Administrators</li>
+
+<li>MS-102 Candidates</li>
+
+<li>SC-400 Candidates</li>
+
+<li>IT Infrastructure Engineers</li>
+
+</ul>
+
+<h2 align="center">📑 Table of Contents</h2>
+
+<p align="center">
+
+<a href="#enterprise-overview">Enterprise Overview</a> •
+<a href="#business-problem">Business Problem</a> •
+<a href="#business-requirements">Business Requirements</a> •
+<a href="#microsoft-solution">Solution</a> •
+<a href="#architecture">Architecture</a> •
+<a href="#implementation-phases">Implementation</a> •
+<a href="#validation-results">Validation</a> •
+<a href="#powershell-automation">PowerShell</a> •
+<a href="#lessons-learned">Lessons Learned</a> •
+<a href="#troubleshooting">Troubleshooting</a> •
+<a href="#future-improvements">Future Improvements</a>
+
+</p>
+
+<h2 align="center">📈 Project Metrics</h2>
+
+<table align="center">
+
+<tr>
+
+<th>Metric</th>
+
+<th>Value</th>
+
+</tr>
+
+<tr>
+
+<td>Screenshots</td>
+
+<td>15+</td>
+
+</tr>
+
+<tr>
+
+<td>PowerShell Scripts</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>Validation Tests</td>
+
+<td>7</td>
+
+</tr>
+
+<tr>
+
+<td>Architecture Diagrams</td>
+
+<td>4</td>
+
+</tr>
+
+<tr>
+
+<td>Documentation Pages</td>
+
+<td>8</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h2 align="center">📌 Project Summary</h2>
+
+<table align="center">
+
+<tr>
+
+<th>Project</th>
+<th>Value</th>
+
+</tr>
+
+<tr>
+<td><strong>Technology</strong></td>
+<td>Microsoft Purview eDiscovery</td>
+</tr>
+
+<tr>
+<td><strong>Category</strong></td>
+<td>Compliance & Investigation</td>
+</tr>
+
+<tr>
+<td><strong>Difficulty</strong></td>
+<td>Intermediate</td>
+</tr>
+
+<tr>
+<td><strong>Environment</strong></td>
+<td>Microsoft 365 E5 Trial</td>
+</tr>
+
+<tr>
+<td><strong>Status</strong></td>
+<td>✅ Completed</td>
+</tr>
+
+<tr>
+<td><strong>Certification</strong></td>
+<td>MS-102 • SC-400</td>
+</tr>
+
+<tr>
+<td><strong>Project Type</strong></td>
+<td>Enterprise Lab</td>
+</tr>
+
+</table>
+
+<h2 align="center">🖥 Microsoft Purview eDiscovery Dashboard</h2>
+
+<p align="center">
+
+<img
+src="images/01-overview/01-ediscovery-solutions-menu.png"
+width="1000"
+alt="Microsoft Purview eDiscovery Dashboard"/>
+
+</p>
+
+<h2 align="center">✨ Key Features</h2>
+
+<table align="center">
+
+<tr>
+
+<td>
+
+✅ Case Management
+
+</td>
+
+<td>
+
+✅ Multi-workload Search
+
+</td>
+
+<td>
+
+✅ KQL Query Builder
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+✅ Evidence Export
+
+</td>
+
+<td>
+
+✅ Unified Audit Log
+
+</td>
+
+<td>
+
+✅ PowerShell Automation
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+✅ Validation Checklist
+
+</td>
+
+<td>
+
+✅ Enterprise Documentation
+
+</td>
+
+<td>
+
+✅ Architecture Diagram
+
+</td>
+
+</tr>
+
+</table>
+
+<h2 align="center">🛠 Skills Demonstrated</h2>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Microsoft_Purview-512BD4?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Microsoft_365-0078D4?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/eDiscovery-009688?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/KQL-FF9800?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Compliance-795548?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Enterprise_Security-4CAF50?style=for-the-badge"/>
+
+</p>
+
+<h2 align="center">🎓 Certification Alignment</h2>
+
+<table align="center">
+
+<tr>
+
+<th>Certification</th>
+
+<th>Coverage</th>
+
+</tr>
+
+<tr>
+
+<td>MS-102</td>
+
+<td>⭐⭐⭐⭐⭐</td>
+
+</tr>
+
+<tr>
+
+<td>SC-400</td>
+
+<td>⭐⭐⭐⭐⭐</td>
+
+</tr>
+
+<tr>
+
+<td>SC-200</td>
+
+<td>⭐⭐⭐☆☆</td>
+
+</tr>
+
+</table>
+
+<h2 align="center">🌐 Live Portfolio Case Study</h2>
+
+<p align="center">
+
+<a href="https://lokeshmurali.com/projects/purview-ediscovery">
+
+<img src="https://img.shields.io/badge/View_Full_Case_Study-FF5722?style=for-the-badge"/>
+
+</a>
+
+</p>
+
+<h2 align="center">🔗 Related Microsoft Projects</h2>
+
+<table align="center">
+
+<tr>
+
+<td>
+
+<a href="https://github.com/lokeshm-it/Microsoft-Purview-Data-Loss-Prevention">
+
+Microsoft Purview DLP
+
+</a>
+
+</td>
+
+<td>
+
+<a href="https://github.com/lokeshm-it/Microsoft-Purview-Audit">
+
+Microsoft Purview Audit
+
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<a href="https://github.com/lokeshm-it/Microsoft-Purview-Information-Protection">
+
+Information Protection
+
+</a>
+
+</td>
+
+<td>
+
+<a href="https://github.com/lokeshm-it/Microsoft-Purview-Records-Management">
+
+Records Management
+
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+<h2 align="center">📋 Project Information</h2>
+
+<table align="center">
+
+<tr>
+
+<td><strong>Version</strong></td>
+
+<td>1.0</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Repository Status</strong></td>
+
+<td>Active</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Last Updated</strong></td>
+
+<td>July 2026</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Maintained By</strong></td>
+
+<td>Lokesh M</td>
+
+</tr>
+
+<tr>
+
+<td><strong>License</strong></td>
+
+<td>MIT</td>
+
+</tr>
+
+</table>
+
+
 
 ## Enterprise Overview
 
@@ -322,3 +737,103 @@ Microsoft-Purview-eDiscovery/
 - [Export Search Results](https://learn.microsoft.com/en-us/purview/ediscovery-export-search-results)
 - [MS-102 Exam Overview](https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-102)
 - [Blog: eDiscovery in Microsoft Purview Lab Guide](https://techcertguide.blog/ediscovery-in-microsoft-purview/)
+
+<h2 align="center">📚 Learning Resources</h2>
+
+<p align="center">
+
+<a href="https://learn.microsoft.com/en-us/purview/ediscovery">
+
+Microsoft Learn
+
+</a>
+
+•
+
+<a href="https://techcertguide.blog/ediscovery-in-microsoft-purview/">
+
+TechCertGuide Article
+
+</a>
+
+</p>
+
+<h2 align="center">🚀 Continue Exploring</h2>
+
+<table align="center">
+
+<tr>
+
+<td>
+
+<a href="https://github.com/lokeshm-it/Microsoft-Purview-Audit">
+
+Microsoft Purview Audit →
+
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<a href="https://github.com/lokeshm-it/Microsoft-Purview-Data-Loss-Prevention">
+
+Microsoft Purview DLP →
+
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<a href="https://github.com/lokeshm-it/Entra-ID-Protection">
+
+Entra ID Protection →
+
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+<h2 align="center">⚠ Disclaimer</h2>
+
+<p align="center">
+
+This repository documents an implementation performed in a Microsoft 365 lab environment for learning, certification preparation, and portfolio demonstration.
+
+Always validate licensing, compliance, security, and organizational requirements before implementing these configurations in a production environment.
+
+</p>
+
+<hr>
+
+<h3 align="center">
+
+🌐 <a href="https://lokeshmurali.com">Portfolio</a>
+•
+💼 <a href="https://www.linkedin.com/in/lokesh-itinfra/">LinkedIn</a>
+•
+📝 <a href="https://techcertguide.blog/">TechCertGuide.blog</a>
+•
+💻 <a href="https://github.com/lokeshm-it">GitHub</a>
+
+</h3>
+
+<p align="center">
+
+<strong>Building secure Microsoft 365, Identity, Security, Compliance, and Zero Trust solutions through enterprise projects, technical documentation, and continuous learning.</strong>
+
+</p>
+
+
